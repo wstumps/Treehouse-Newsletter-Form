@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2b3d52;
+    color: #fff;
+    padding: 7% 0;
+    text-align: center;
+}
+
+p,
+h4 {
+    color: #59697c;
+    padding-bottom: 30px;
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+h4 {
+    color: #a5a8ad;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+/* Call to Action */
+
+.cta {
+    text-align: center;
+    color: #2b3d52;
+    padding: 25px 10px;
+    line-height: 1.25;
+}
+
+.cta h3 {
+    padding-bottom: 15px;
+}
+
+.cta hr {
+    margin: auto;
+    height: 10px;
+    width: 95%;
+    border-top: 4px solid #2b3d52;
+    border-bottom: 2px solid #2b3d52;
+    border-left: 0;
+    border-right: 0;
+}
+
+/* Contact Information */
+
+.contact,
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    margin: 0 18px;
+}
+
+legend {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #2b3d52;
+}
+
+label{
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: .75rem;
+    color: #59697c;}
+
+.contact input, select {
+    height: 50px;
+    border-style: hidden;
+    outline: hidden;
+    border-radius: 5px;
+    background-color: #ededf1;
+    padding: 0 20px;
+    margin-bottom: 10px;;
+}
+
+input:focus,
+select:focus,
+textarea {
+    outline-color: #2b3d52;
+}
+
+input::placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
+select {
+    color:#a5a8ad
+}
+
+#zip {
+    width: 50%;
+}
+
+.form hr {
+    margin: 20px auto;
+    height: 0;
+    width: 95%;
+    border-top: 0;
+    border-bottom: 2px solid #2b3d52;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+
+/* Newsletter */
+
+.boxes,
+.buttons {
+    flex-direction: row;
+    margin: 10px 0;
+    
+}
+
+.boxes label,
+.buttons label {
+    margin-left: 8px;
+}
+
+.boxes + p,
+.buttons + p {
+    margin: 20px 0 -10px;
+}
+
+#comments {
+    height: 100px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ededf1;
+    margin-bottom: 20px;
+}
+
+/* Button */
+
+.btn {
+    display: block;
+    width: 89%;
+    height: 60px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(86, 173, 173);
+}
+
+/* Footer */
+
+footer h4 {
+    display: block;
+    font-style: italic;
+    margin: 10px auto;
+}

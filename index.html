@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Review Newsletter</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h3>THE CODE REVIEW</h3>
+    </header>
+
+    <main>
+        <section class="cta">
+            <h3>Signup for our newsletter</h3>
+
+            <h4>Get the latest news on how your code is doing right in your inbox</h4>
+
+            <hr>
+        </section>
+
+        <section class="form">
+            <form>
+                <fieldset class="contact">
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id=name name="name" placeholder="Required">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id=email name="email" placeholder="Required">
+
+                    <label for="telephone">Phone Number</label>
+                    <input type="tel" id=telephone name="telephone">
+
+                    <label for="street">Street Address</label>
+                    <input type="text" id=street name="street">
+
+                    <label for="city">City</label>
+                    <input type="text" id=city name="city">
+
+                    <label for="state">State</label>
+                    <select id=state name="state">
+                        <option class="state" value="">Choose State</option>
+                        <option value="alabama">Alabama</option>
+                        <option value="arkansas">Arkansas</option>
+                        <option value="delaware">Delaware</option>
+                        <option value="florida">Florida</option>
+                        <option value="georgia">Georgia</option>
+                        <option value="maryland">Maryland</option>
+                        <option value="north carolina">North Carolina</option>
+                        <option value="south carolina">South Carolina</option>
+                        <option value="tennessee">Tennessee</option>
+                        <option value="virginia">Virginia</option>
+                    </select>
+
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id=zip name="zip">
+                </fieldset>
+
+                <hr>
+
+                <fieldset class="newsletter">
+                    <legend>Newsletter</legend>
+
+                    <p>Select the newsletters you would like to recieve</p>
+
+                    <div class="boxes">
+                        <input type="checkbox" id="html" value ="html_news" name="html_news"><label for="html">HTML News</label><br>
+                    </div>
+
+                    <div class="boxes">
+                        <input type="checkbox" id="css" value ="css_news" name="css_news"><label for="css">CSS News</label><br>
+                    </div>
+
+                    <div class="boxes">
+                        <input type="checkbox" id="js" value ="js_news" name="js_news"><label for="js">Javascript News</label><br>
+                    </div>
+
+                    <p>Newsletter Format</p>
+
+                    <div class="buttons">
+                        <input type="radio" id="html_format" value ="html_format" name="format"><label for="html_format">HTML</label><br>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="radio" id="plain_text" value ="plain_text" name="format"><label for="plain_text">Plain Text</label><br>
+                    </div>
+
+                    <p>Other topics you'd like to hear about</p>
+
+                    <textarea id="comments"></textarea>
+                </fieldset>
+
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Copywrite The Code Review</h4>
+    </footer>
+    
+</body>
+</html>
